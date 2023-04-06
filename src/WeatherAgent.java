@@ -11,7 +11,7 @@ public class WeatherAgent {
 
   private static final String API_KEY = "79e7fde73f73e8e6d61f3b69ece55c0c";
   private static final String API_BASE_URL = "https://api.openweathermap.org/data/2.5/";
-  private static final int NUM_DAYS_FORECAST = 3;
+  private static final int NUM_DAYS_FORECAST = 5;
   private static final int API_CNT_FORECAST = NUM_DAYS_FORECAST * 8;
 
   public String getXMLWeather() {
